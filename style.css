@@ -1,7 +1,3 @@
-/* =========================
-   RESET
-========================= */
-
 * {
   margin: 0;
   padding: 0;
@@ -23,21 +19,14 @@ body {
 
   background: #f7f6f2;
   color: #171717;
-
   line-height: 1.6;
 }
-
-
-/* =========================
-   VARIABLES
-========================= */
 
 :root {
   --red: #e31e24;
   --black: #171717;
   --gray: #6d6d6d;
   --light-gray: #deddd8;
-  --background: #f7f6f2;
 }
 
 
@@ -48,7 +37,6 @@ body {
 .navbar {
   width: 100%;
   max-width: 1180px;
-
   margin: 0 auto;
   padding: 28px 30px;
 
@@ -63,7 +51,6 @@ body {
 
   font-size: 22px;
   font-weight: 800;
-
   letter-spacing: -1px;
 }
 
@@ -133,7 +120,6 @@ main {
   font-size: clamp(52px, 7vw, 92px);
 
   line-height: 0.98;
-
   letter-spacing: -5px;
 
   max-width: 850px;
@@ -191,6 +177,11 @@ main {
   padding-bottom: 2px;
 }
 
+.text-link:hover {
+  color: var(--red);
+  border-color: var(--red);
+}
+
 
 /* =========================
    SECTION HEADINGS
@@ -204,7 +195,6 @@ main {
   font-size: clamp(38px, 5vw, 64px);
 
   line-height: 1.05;
-
   letter-spacing: -3px;
 }
 
@@ -251,13 +241,11 @@ main {
 
 .project-top h3 {
   font-size: 32px;
-
   letter-spacing: -1px;
 }
 
 .project-top span {
   color: var(--gray);
-
   font-size: 13px;
 }
 
@@ -297,7 +285,6 @@ main {
   text-decoration: none;
 
   font-size: 14px;
-
   font-weight: 700;
 
   border-bottom: 1px solid var(--black);
@@ -307,7 +294,6 @@ main {
 
 .project-link:hover {
   color: var(--red);
-
   border-color: var(--red);
 }
 
@@ -361,7 +347,6 @@ main {
   font-size: clamp(38px, 5vw, 65px);
 
   line-height: 1.05;
-
   letter-spacing: -3px;
 
   margin-bottom: 25px;
@@ -380,7 +365,6 @@ main {
 
 .elsewhere-links {
   display: flex;
-
   flex-direction: column;
 
   border-top: 1px solid var(--light-gray);
@@ -400,7 +384,6 @@ main {
   text-decoration: none;
 
   font-size: 22px;
-
   font-weight: 600;
 
   transition: 0.2s ease;
@@ -517,5 +500,4 @@ footer {
 
     flex-direction: column;
   }
-
 }
